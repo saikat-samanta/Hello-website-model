@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="icon" href="img/volume-up-solid.svg" type="image/svg">
+    <title>About</title>
+</head>
+
+<body style="overflow-x: hidden;">
+    <header style="height: calc(40vh + 50px);">
+        {{>navbar}}
+
+        <div class="title_box">
+            <h1>About Us</h1>
+        </div>
+    </header>
+    <section class="about_svg">
+        <div style="height: 150px; width: 100vw; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; background: transparent;">
+                <path d="M-0.27,54.77 C248.02,117.92 245.77,-0.48 500.84,73.52 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #08f;">
+                </path>
+            </svg>
+        </div>
+        <div class="about_banner">
+            <div class="about_content">
+                <h1>Message From Adele
+                    <span style="--i:1">.</span>
+                    <span style="--i:2">.</span>
+                    <span style="--i:3">.</span>
+                </h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ullam temporibus et blanditiis
+                    rem. Laborum quas id voluptate error vero iure voluptates aut itaque eligendi.</p>
+            </div>
+            <img src="img/adele-2.jpg" alt="Adele">
+        </div>
+        <div style="height: 150px; width: 100vw; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; background: HSL(192, 15%, 94%);"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill:#08f;"></path></svg></div>
+    </section>
+    <section class="team">
+        <h1 class="title">Team Member</h1>
+        <div class="team_area">
+            <div class="team_card">
+                <img class="member_img" src="img/adele-3.jpg" alt="">
+                <div class="member_details">
+                    <h3>Adele Laurie</h3>
+                    <p>singer</p>
+                </div>
+                <div class="social_icon">
+                    <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1;"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9Ijk2LjEyNHB4IiBoZWlnaHQ9Ijk2LjEyM3B4IiB2aWV3Qm94PSIwIDAgOTYuMTI0IDk2LjEyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTYuMTI0IDk2LjEyMzsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTcyLjA4OSwwLjAyTDU5LjYyNCwwQzQ1LjYyLDAsMzYuNTcsOS4yODUsMzYuNTcsMjMuNjU2djEwLjkwN0gyNC4wMzdjLTEuMDgzLDAtMS45NiwwLjg3OC0xLjk2LDEuOTYxdjE1LjgwMw0KCQljMCwxLjA4MywwLjg3OCwxLjk2LDEuOTYsMS45NmgxMi41MzN2MzkuODc2YzAsMS4wODMsMC44NzcsMS45NiwxLjk2LDEuOTZoMTYuMzUyYzEuMDgzLDAsMS45Ni0wLjg3OCwxLjk2LTEuOTZWNTQuMjg3aDE0LjY1NA0KCQljMS4wODMsMCwxLjk2LTAuODc3LDEuOTYtMS45NmwwLjAwNi0xNS44MDNjMC0wLjUyLTAuMjA3LTEuMDE4LTAuNTc0LTEuMzg2Yy0wLjM2Ny0wLjM2OC0wLjg2Ny0wLjU3NS0xLjM4Ny0wLjU3NUg1Ni44NDJ2LTkuMjQ2DQoJCWMwLTQuNDQ0LDEuMDU5LTYuNyw2Ljg0OC02LjdsOC4zOTctMC4wMDNjMS4wODIsMCwxLjk1OS0wLjg3OCwxLjk1OS0xLjk2VjEuOThDNzQuMDQ2LDAuODk5LDczLjE3LDAuMDIyLDcyLjA4OSwwLjAyeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                    </a>
+                    <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.333;"
+                            src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY4MXB0IiB2aWV3Qm94PSItMjEgLTgxIDY4MS4zMzQ2NCA2ODEiIHdpZHRoPSI2ODFwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAwLjk2NDg0NCA1MTUuMjkyOTY5YzI0MS4wNTA3ODEgMCAzNzIuODcxMDk0LTE5OS43MDMxMjUgMzcyLjg3MTA5NC0zNzIuODcxMDk0IDAtNS42NzE4NzUtLjExNzE4OC0xMS4zMjAzMTMtLjM3MTA5NC0xNi45Mzc1IDI1LjU4NTkzNy0xOC41IDQ3LjgyNDIxOC00MS41ODU5MzcgNjUuMzcxMDk0LTY3Ljg2MzI4MS0yMy40ODA0NjkgMTAuNDQxNDA2LTQ4Ljc1MzkwNyAxNy40NjA5MzctNzUuMjU3ODEzIDIwLjYzNjcxOCAyNy4wNTQ2ODctMTYuMjMwNDY4IDQ3LjgyODEyNS00MS44OTQ1MzEgNTcuNjI1LTcyLjQ4ODI4MS0yNS4zMjAzMTMgMTUuMDExNzE5LTUzLjM2MzI4MSAyNS45MTc5NjktODMuMjE0ODQ0IDMxLjgwODU5NC0yMy45MTQwNjItMjUuNDcyNjU2LTU3Ljk2NDg0My00MS40MDIzNDQtOTUuNjY0MDYyLTQxLjQwMjM0NC03Mi4zNjcxODggMC0xMzEuMDU4NTk0IDU4LjY4NzUtMTMxLjA1ODU5NCAxMzEuMDMxMjUgMCAxMC4yODkwNjMgMS4xNTIzNDQgMjAuMjg5MDYzIDMuMzk4NDM3IDI5Ljg4MjgxMy0xMDguOTE3OTY4LTUuNDgwNDY5LTIwNS41MDM5MDYtNTcuNjI1LTI3MC4xMzI4MTItMTM2LjkyMTg3NS0xMS4yNSAxOS4zNjMyODEtMTcuNzQyMTg4IDQxLjg2MzI4MS0xNy43NDIxODggNjUuODcxMDkzIDAgNDUuNDYwOTM4IDIzLjEzNjcxOSA4NS42MDU0NjkgNTguMzE2NDA3IDEwOS4wODIwMzItMjEuNS0uNjYwMTU2LTQxLjY5NTMxMy02LjU2MjUtNTkuMzUxNTYzLTE2LjM4NjcxOS0uMDE5NTMxLjU1MDc4MS0uMDE5NTMxIDEuMDg1OTM3LS4wMTk1MzEgMS42NzE4NzUgMCA2My40Njg3NSA0NS4xNzE4NzUgMTE2LjQ2MDkzOCAxMDUuMTQ0NTMxIDEyOC40Njg3NS0xMS4wMTU2MjUgMi45OTYwOTQtMjIuNjA1NDY4IDQuNjA5Mzc1LTM0LjU1ODU5NCA0LjYwOTM3NS04LjQyOTY4NyAwLTE2LjY0ODQzNy0uODI4MTI1LTI0LjYzMjgxMi0yLjM2MzI4MSAxNi42ODM1OTQgNTIuMDcwMzEyIDY1LjA2NjQwNiA4OS45NjA5MzcgMTIyLjQyNTc4MSA5MS4wMjM0MzctNDQuODU1NDY5IDM1LjE1NjI1LTEwMS4zNTkzNzUgNTYuMDk3NjU3LTE2Mi43Njk1MzEgNTYuMDk3NjU3LTEwLjU2MjUgMC0yMS4wMDM5MDYtLjYwNTQ2OS0zMS4yNjE3MTg4LTEuODE2NDA3IDU3Ljk5OTk5OTggMzcuMTc1NzgxIDEyNi44NzEwOTM4IDU4Ljg3MTA5NCAyMDAuODg2NzE4OCA1OC44NzEwOTQiLz48L3N2Zz4=" />
+                    </a>
+                    <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.666;"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIzLjk5NCAyNHYtLjAwMWguMDA2di04LjgwMmMwLTQuMzA2LS45MjctNy42MjMtNS45NjEtNy42MjMtMi40MiAwLTQuMDQ0IDEuMzI4LTQuNzA3IDIuNTg3aC0uMDd2LTIuMTg1aC00Ljc3M3YxNi4wMjNoNC45N3YtNy45MzRjMC0yLjA4OS4zOTYtNC4xMDkgMi45ODMtNC4xMDkgMi41NDkgMCAyLjU4NyAyLjM4NCAyLjU4NyA0LjI0M3Y3LjgwMXoiLz48cGF0aCBkPSJtLjM5NiA3Ljk3N2g0Ljk3NnYxNi4wMjNoLTQuOTc2eiIvPjxwYXRoIGQ9Im0yLjg4MiAwYy0xLjU5MSAwLTIuODgyIDEuMjkxLTIuODgyIDIuODgyczEuMjkxIDIuOTA5IDIuODgyIDIuOTA5IDIuODgyLTEuMzE4IDIuODgyLTIuOTA5Yy0uMDAxLTEuNTkxLTEuMjkyLTIuODgyLTIuODgyLTIuODgyeiIvPjwvc3ZnPg==" />
+                    </a>
+                    <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.999;"
+                            src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgLjVjLTYuNjMgMC0xMiA1LjI4LTEyIDExLjc5MiAwIDUuMjExIDMuNDM4IDkuNjMgOC4yMDUgMTEuMTg4LjYuMTExLjgyLS4yNTQuODItLjU2NyAwLS4yOC0uMDEtMS4wMjItLjAxNS0yLjAwNS0zLjMzOC43MTEtNC4wNDItMS41ODItNC4wNDItMS41ODItLjU0Ni0xLjM2MS0xLjMzNS0xLjcyNS0xLjMzNS0xLjcyNS0xLjA4Ny0uNzMxLjA4NC0uNzE2LjA4NC0uNzE2IDEuMjA1LjA4MiAxLjgzOCAxLjIxNSAxLjgzOCAxLjIxNSAxLjA3IDEuODAzIDIuODA5IDEuMjgyIDMuNDk1Ljk4MS4xMDgtLjc2My40MTctMS4yODIuNzYtMS41NzctMi42NjUtLjI5NS01LjQ2Ni0xLjMwOS01LjQ2Ni01LjgyNyAwLTEuMjg3LjQ2NS0yLjMzOSAxLjIzNS0zLjE2NC0uMTM1LS4yOTgtLjU0LTEuNDk3LjEwNS0zLjEyMSAwIDAgMS4wMDUtLjMxNiAzLjMgMS4yMDkuOTYtLjI2MiAxLjk4LS4zOTIgMy0uMzk4IDEuMDIuMDA2IDIuMDQuMTM2IDMgLjM5OCAyLjI4LTEuNTI1IDMuMjg1LTEuMjA5IDMuMjg1LTEuMjA5LjY0NSAxLjYyNC4yNCAyLjgyMy4xMiAzLjEyMS43NjUuODI1IDEuMjMgMS44NzcgMS4yMyAzLjE2NCAwIDQuNTMtMi44MDUgNS41MjctNS40NzUgNS44MTcuNDIuMzU0LjgxIDEuMDc3LjgxIDIuMTgyIDAgMS41NzgtLjAxNSAyLjg0Ni0uMDE1IDMuMjI5IDAgLjMwOS4yMS42NzguODI1LjU2IDQuODAxLTEuNTQ4IDguMjM2LTUuOTcgOC4yMzYtMTEuMTczIDAtNi41MTItNS4zNzMtMTEuNzkyLTEyLTExLjc5MnoiIGZpbGw9IiMyMTIxMjEiLz48L3N2Zz4=" />
+                    </a>
+                </div>
+            </div>
+            <div class="team_card">
+                <img class="member_img" src="img/adele-4.jpg" alt="">
+                <div class="member_details">
+                    <h3>Adele Laurie</h3>
+                    <p>songwriter</p>
+                </div>
+                <div class="social_icon">
+                    <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1;"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9Ijk2LjEyNHB4IiBoZWlnaHQ9Ijk2LjEyM3B4IiB2aWV3Qm94PSIwIDAgOTYuMTI0IDk2LjEyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTYuMTI0IDk2LjEyMzsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTcyLjA4OSwwLjAyTDU5LjYyNCwwQzQ1LjYyLDAsMzYuNTcsOS4yODUsMzYuNTcsMjMuNjU2djEwLjkwN0gyNC4wMzdjLTEuMDgzLDAtMS45NiwwLjg3OC0xLjk2LDEuOTYxdjE1LjgwMw0KCQljMCwxLjA4MywwLjg3OCwxLjk2LDEuOTYsMS45NmgxMi41MzN2MzkuODc2YzAsMS4wODMsMC44NzcsMS45NiwxLjk2LDEuOTZoMTYuMzUyYzEuMDgzLDAsMS45Ni0wLjg3OCwxLjk2LTEuOTZWNTQuMjg3aDE0LjY1NA0KCQljMS4wODMsMCwxLjk2LTAuODc3LDEuOTYtMS45NmwwLjAwNi0xNS44MDNjMC0wLjUyLTAuMjA3LTEuMDE4LTAuNTc0LTEuMzg2Yy0wLjM2Ny0wLjM2OC0wLjg2Ny0wLjU3NS0xLjM4Ny0wLjU3NUg1Ni44NDJ2LTkuMjQ2DQoJCWMwLTQuNDQ0LDEuMDU5LTYuNyw2Ljg0OC02LjdsOC4zOTctMC4wMDNjMS4wODIsMCwxLjk1OS0wLjg3OCwxLjk1OS0xLjk2VjEuOThDNzQuMDQ2LDAuODk5LDczLjE3LDAuMDIyLDcyLjA4OSwwLjAyeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                    </a>
+                    <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.333;"
+                            src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY4MXB0IiB2aWV3Qm94PSItMjEgLTgxIDY4MS4zMzQ2NCA2ODEiIHdpZHRoPSI2ODFwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAwLjk2NDg0NCA1MTUuMjkyOTY5YzI0MS4wNTA3ODEgMCAzNzIuODcxMDk0LTE5OS43MDMxMjUgMzcyLjg3MTA5NC0zNzIuODcxMDk0IDAtNS42NzE4NzUtLjExNzE4OC0xMS4zMjAzMTMtLjM3MTA5NC0xNi45Mzc1IDI1LjU4NTkzNy0xOC41IDQ3LjgyNDIxOC00MS41ODU5MzcgNjUuMzcxMDk0LTY3Ljg2MzI4MS0yMy40ODA0NjkgMTAuNDQxNDA2LTQ4Ljc1MzkwNyAxNy40NjA5MzctNzUuMjU3ODEzIDIwLjYzNjcxOCAyNy4wNTQ2ODctMTYuMjMwNDY4IDQ3LjgyODEyNS00MS44OTQ1MzEgNTcuNjI1LTcyLjQ4ODI4MS0yNS4zMjAzMTMgMTUuMDExNzE5LTUzLjM2MzI4MSAyNS45MTc5NjktODMuMjE0ODQ0IDMxLjgwODU5NC0yMy45MTQwNjItMjUuNDcyNjU2LTU3Ljk2NDg0My00MS40MDIzNDQtOTUuNjY0MDYyLTQxLjQwMjM0NC03Mi4zNjcxODggMC0xMzEuMDU4NTk0IDU4LjY4NzUtMTMxLjA1ODU5NCAxMzEuMDMxMjUgMCAxMC4yODkwNjMgMS4xNTIzNDQgMjAuMjg5MDYzIDMuMzk4NDM3IDI5Ljg4MjgxMy0xMDguOTE3OTY4LTUuNDgwNDY5LTIwNS41MDM5MDYtNTcuNjI1LTI3MC4xMzI4MTItMTM2LjkyMTg3NS0xMS4yNSAxOS4zNjMyODEtMTcuNzQyMTg4IDQxLjg2MzI4MS0xNy43NDIxODggNjUuODcxMDkzIDAgNDUuNDYwOTM4IDIzLjEzNjcxOSA4NS42MDU0NjkgNTguMzE2NDA3IDEwOS4wODIwMzItMjEuNS0uNjYwMTU2LTQxLjY5NTMxMy02LjU2MjUtNTkuMzUxNTYzLTE2LjM4NjcxOS0uMDE5NTMxLjU1MDc4MS0uMDE5NTMxIDEuMDg1OTM3LS4wMTk1MzEgMS42NzE4NzUgMCA2My40Njg3NSA0NS4xNzE4NzUgMTE2LjQ2MDkzOCAxMDUuMTQ0NTMxIDEyOC40Njg3NS0xMS4wMTU2MjUgMi45OTYwOTQtMjIuNjA1NDY4IDQuNjA5Mzc1LTM0LjU1ODU5NCA0LjYwOTM3NS04LjQyOTY4NyAwLTE2LjY0ODQzNy0uODI4MTI1LTI0LjYzMjgxMi0yLjM2MzI4MSAxNi42ODM1OTQgNTIuMDcwMzEyIDY1LjA2NjQwNiA4OS45NjA5MzcgMTIyLjQyNTc4MSA5MS4wMjM0MzctNDQuODU1NDY5IDM1LjE1NjI1LTEwMS4zNTkzNzUgNTYuMDk3NjU3LTE2Mi43Njk1MzEgNTYuMDk3NjU3LTEwLjU2MjUgMC0yMS4wMDM5MDYtLjYwNTQ2OS0zMS4yNjE3MTg4LTEuODE2NDA3IDU3Ljk5OTk5OTggMzcuMTc1NzgxIDEyNi44NzEwOTM4IDU4Ljg3MTA5NCAyMDAuODg2NzE4OCA1OC44NzEwOTQiLz48L3N2Zz4=" />
+                    </a>
+                    <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.666;"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIzLjk5NCAyNHYtLjAwMWguMDA2di04LjgwMmMwLTQuMzA2LS45MjctNy42MjMtNS45NjEtNy42MjMtMi40MiAwLTQuMDQ0IDEuMzI4LTQuNzA3IDIuNTg3aC0uMDd2LTIuMTg1aC00Ljc3M3YxNi4wMjNoNC45N3YtNy45MzRjMC0yLjA4OS4zOTYtNC4xMDkgMi45ODMtNC4xMDkgMi41NDkgMCAyLjU4NyAyLjM4NCAyLjU4NyA0LjI0M3Y3LjgwMXoiLz48cGF0aCBkPSJtLjM5NiA3Ljk3N2g0Ljk3NnYxNi4wMjNoLTQuOTc2eiIvPjxwYXRoIGQ9Im0yLjg4MiAwYy0xLjU5MSAwLTIuODgyIDEuMjkxLTIuODgyIDIuODgyczEuMjkxIDIuOTA5IDIuODgyIDIuOTA5IDIuODgyLTEuMzE4IDIuODgyLTIuOTA5Yy0uMDAxLTEuNTkxLTEuMjkyLTIuODgyLTIuODgyLTIuODgyeiIvPjwvc3ZnPg==" />
+                    </a>
+                    <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.999;"
+                            src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgLjVjLTYuNjMgMC0xMiA1LjI4LTEyIDExLjc5MiAwIDUuMjExIDMuNDM4IDkuNjMgOC4yMDUgMTEuMTg4LjYuMTExLjgyLS4yNTQuODItLjU2NyAwLS4yOC0uMDEtMS4wMjItLjAxNS0yLjAwNS0zLjMzOC43MTEtNC4wNDItMS41ODItNC4wNDItMS41ODItLjU0Ni0xLjM2MS0xLjMzNS0xLjcyNS0xLjMzNS0xLjcyNS0xLjA4Ny0uNzMxLjA4NC0uNzE2LjA4NC0uNzE2IDEuMjA1LjA4MiAxLjgzOCAxLjIxNSAxLjgzOCAxLjIxNSAxLjA3IDEuODAzIDIuODA5IDEuMjgyIDMuNDk1Ljk4MS4xMDgtLjc2My40MTctMS4yODIuNzYtMS41NzctMi42NjUtLjI5NS01LjQ2Ni0xLjMwOS01LjQ2Ni01LjgyNyAwLTEuMjg3LjQ2NS0yLjMzOSAxLjIzNS0zLjE2NC0uMTM1LS4yOTgtLjU0LTEuNDk3LjEwNS0zLjEyMSAwIDAgMS4wMDUtLjMxNiAzLjMgMS4yMDkuOTYtLjI2MiAxLjk4LS4zOTIgMy0uMzk4IDEuMDIuMDA2IDIuMDQuMTM2IDMgLjM5OCAyLjI4LTEuNTI1IDMuMjg1LTEuMjA5IDMuMjg1LTEuMjA5LjY0NSAxLjYyNC4yNCAyLjgyMy4xMiAzLjEyMS43NjUuODI1IDEuMjMgMS44NzcgMS4yMyAzLjE2NCAwIDQuNTMtMi44MDUgNS41MjctNS40NzUgNS44MTcuNDIuMzU0LjgxIDEuMDc3LjgxIDIuMTgyIDAgMS41NzgtLjAxNSAyLjg0Ni0uMDE1IDMuMjI5IDAgLjMwOS4yMS42NzguODI1LjU2IDQuODAxLTEuNTQ4IDguMjM2LTUuOTcgOC4yMzYtMTEuMTczIDAtNi41MTItNS4zNzMtMTEuNzkyLTEyLTExLjc5MnoiIGZpbGw9IiMyMTIxMjEiLz48L3N2Zz4=" />
+                    </a>
+                </div>
+            </div>
+            <div class="team_card">
+                <img class="member_img" src="img/adele-5.jpg" alt="">
+                <div class="member_details">
+                    <h3>Adele Laurie</h3>
+                    <p>singer</p>
+                </div>
+                <div class="social_icon">
+                    <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1;"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9Ijk2LjEyNHB4IiBoZWlnaHQ9Ijk2LjEyM3B4IiB2aWV3Qm94PSIwIDAgOTYuMTI0IDk2LjEyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTYuMTI0IDk2LjEyMzsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTcyLjA4OSwwLjAyTDU5LjYyNCwwQzQ1LjYyLDAsMzYuNTcsOS4yODUsMzYuNTcsMjMuNjU2djEwLjkwN0gyNC4wMzdjLTEuMDgzLDAtMS45NiwwLjg3OC0xLjk2LDEuOTYxdjE1LjgwMw0KCQljMCwxLjA4MywwLjg3OCwxLjk2LDEuOTYsMS45NmgxMi41MzN2MzkuODc2YzAsMS4wODMsMC44NzcsMS45NiwxLjk2LDEuOTZoMTYuMzUyYzEuMDgzLDAsMS45Ni0wLjg3OCwxLjk2LTEuOTZWNTQuMjg3aDE0LjY1NA0KCQljMS4wODMsMCwxLjk2LTAuODc3LDEuOTYtMS45NmwwLjAwNi0xNS44MDNjMC0wLjUyLTAuMjA3LTEuMDE4LTAuNTc0LTEuMzg2Yy0wLjM2Ny0wLjM2OC0wLjg2Ny0wLjU3NS0xLjM4Ny0wLjU3NUg1Ni44NDJ2LTkuMjQ2DQoJCWMwLTQuNDQ0LDEuMDU5LTYuNyw2Ljg0OC02LjdsOC4zOTctMC4wMDNjMS4wODIsMCwxLjk1OS0wLjg3OCwxLjk1OS0xLjk2VjEuOThDNzQuMDQ2LDAuODk5LDczLjE3LDAuMDIyLDcyLjA4OSwwLjAyeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                    </a>
+                    <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.333;"
+                            src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY4MXB0IiB2aWV3Qm94PSItMjEgLTgxIDY4MS4zMzQ2NCA2ODEiIHdpZHRoPSI2ODFwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAwLjk2NDg0NCA1MTUuMjkyOTY5YzI0MS4wNTA3ODEgMCAzNzIuODcxMDk0LTE5OS43MDMxMjUgMzcyLjg3MTA5NC0zNzIuODcxMDk0IDAtNS42NzE4NzUtLjExNzE4OC0xMS4zMjAzMTMtLjM3MTA5NC0xNi45Mzc1IDI1LjU4NTkzNy0xOC41IDQ3LjgyNDIxOC00MS41ODU5MzcgNjUuMzcxMDk0LTY3Ljg2MzI4MS0yMy40ODA0NjkgMTAuNDQxNDA2LTQ4Ljc1MzkwNyAxNy40NjA5MzctNzUuMjU3ODEzIDIwLjYzNjcxOCAyNy4wNTQ2ODctMTYuMjMwNDY4IDQ3LjgyODEyNS00MS44OTQ1MzEgNTcuNjI1LTcyLjQ4ODI4MS0yNS4zMjAzMTMgMTUuMDExNzE5LTUzLjM2MzI4MSAyNS45MTc5NjktODMuMjE0ODQ0IDMxLjgwODU5NC0yMy45MTQwNjItMjUuNDcyNjU2LTU3Ljk2NDg0My00MS40MDIzNDQtOTUuNjY0MDYyLTQxLjQwMjM0NC03Mi4zNjcxODggMC0xMzEuMDU4NTk0IDU4LjY4NzUtMTMxLjA1ODU5NCAxMzEuMDMxMjUgMCAxMC4yODkwNjMgMS4xNTIzNDQgMjAuMjg5MDYzIDMuMzk4NDM3IDI5Ljg4MjgxMy0xMDguOTE3OTY4LTUuNDgwNDY5LTIwNS41MDM5MDYtNTcuNjI1LTI3MC4xMzI4MTItMTM2LjkyMTg3NS0xMS4yNSAxOS4zNjMyODEtMTcuNzQyMTg4IDQxLjg2MzI4MS0xNy43NDIxODggNjUuODcxMDkzIDAgNDUuNDYwOTM4IDIzLjEzNjcxOSA4NS42MDU0NjkgNTguMzE2NDA3IDEwOS4wODIwMzItMjEuNS0uNjYwMTU2LTQxLjY5NTMxMy02LjU2MjUtNTkuMzUxNTYzLTE2LjM4NjcxOS0uMDE5NTMxLjU1MDc4MS0uMDE5NTMxIDEuMDg1OTM3LS4wMTk1MzEgMS42NzE4NzUgMCA2My40Njg3NSA0NS4xNzE4NzUgMTE2LjQ2MDkzOCAxMDUuMTQ0NTMxIDEyOC40Njg3NS0xMS4wMTU2MjUgMi45OTYwOTQtMjIuNjA1NDY4IDQuNjA5Mzc1LTM0LjU1ODU5NCA0LjYwOTM3NS04LjQyOTY4NyAwLTE2LjY0ODQzNy0uODI4MTI1LTI0LjYzMjgxMi0yLjM2MzI4MSAxNi42ODM1OTQgNTIuMDcwMzEyIDY1LjA2NjQwNiA4OS45NjA5MzcgMTIyLjQyNTc4MSA5MS4wMjM0MzctNDQuODU1NDY5IDM1LjE1NjI1LTEwMS4zNTkzNzUgNTYuMDk3NjU3LTE2Mi43Njk1MzEgNTYuMDk3NjU3LTEwLjU2MjUgMC0yMS4wMDM5MDYtLjYwNTQ2OS0zMS4yNjE3MTg4LTEuODE2NDA3IDU3Ljk5OTk5OTggMzcuMTc1NzgxIDEyNi44NzEwOTM4IDU4Ljg3MTA5NCAyMDAuODg2NzE4OCA1OC44NzEwOTQiLz48L3N2Zz4=" />
+                    </a>
+                    <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.666;"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIzLjk5NCAyNHYtLjAwMWguMDA2di04LjgwMmMwLTQuMzA2LS45MjctNy42MjMtNS45NjEtNy42MjMtMi40MiAwLTQuMDQ0IDEuMzI4LTQuNzA3IDIuNTg3aC0uMDd2LTIuMTg1aC00Ljc3M3YxNi4wMjNoNC45N3YtNy45MzRjMC0yLjA4OS4zOTYtNC4xMDkgMi45ODMtNC4xMDkgMi41NDkgMCAyLjU4NyAyLjM4NCAyLjU4NyA0LjI0M3Y3LjgwMXoiLz48cGF0aCBkPSJtLjM5NiA3Ljk3N2g0Ljk3NnYxNi4wMjNoLTQuOTc2eiIvPjxwYXRoIGQ9Im0yLjg4MiAwYy0xLjU5MSAwLTIuODgyIDEuMjkxLTIuODgyIDIuODgyczEuMjkxIDIuOTA5IDIuODgyIDIuOTA5IDIuODgyLTEuMzE4IDIuODgyLTIuOTA5Yy0uMDAxLTEuNTkxLTEuMjkyLTIuODgyLTIuODgyLTIuODgyeiIvPjwvc3ZnPg==" />
+                    </a>
+                    <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.999;"
+                            src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgLjVjLTYuNjMgMC0xMiA1LjI4LTEyIDExLjc5MiAwIDUuMjExIDMuNDM4IDkuNjMgOC4yMDUgMTEuMTg4LjYuMTExLjgyLS4yNTQuODItLjU2NyAwLS4yOC0uMDEtMS4wMjItLjAxNS0yLjAwNS0zLjMzOC43MTEtNC4wNDItMS41ODItNC4wNDItMS41ODItLjU0Ni0xLjM2MS0xLjMzNS0xLjcyNS0xLjMzNS0xLjcyNS0xLjA4Ny0uNzMxLjA4NC0uNzE2LjA4NC0uNzE2IDEuMjA1LjA4MiAxLjgzOCAxLjIxNSAxLjgzOCAxLjIxNSAxLjA3IDEuODAzIDIuODA5IDEuMjgyIDMuNDk1Ljk4MS4xMDgtLjc2My40MTctMS4yODIuNzYtMS41NzctMi42NjUtLjI5NS01LjQ2Ni0xLjMwOS01LjQ2Ni01LjgyNyAwLTEuMjg3LjQ2NS0yLjMzOSAxLjIzNS0zLjE2NC0uMTM1LS4yOTgtLjU0LTEuNDk3LjEwNS0zLjEyMSAwIDAgMS4wMDUtLjMxNiAzLjMgMS4yMDkuOTYtLjI2MiAxLjk4LS4zOTIgMy0uMzk4IDEuMDIuMDA2IDIuMDQuMTM2IDMgLjM5OCAyLjI4LTEuNTI1IDMuMjg1LTEuMjA5IDMuMjg1LTEuMjA5LjY0NSAxLjYyNC4yNCAyLjgyMy4xMiAzLjEyMS43NjUuODI1IDEuMjMgMS44NzcgMS4yMyAzLjE2NCAwIDQuNTMtMi44MDUgNS41MjctNS40NzUgNS44MTcuNDIuMzU0LjgxIDEuMDc3LjgxIDIuMTgyIDAgMS41NzgtLjAxNSAyLjg0Ni0uMDE1IDMuMjI5IDAgLjMwOS4yMS42NzguODI1LjU2IDQuODAxLTEuNTQ4IDguMjM2LTUuOTcgOC4yMzYtMTEuMTczIDAtNi41MTItNS4zNzMtMTEuNzkyLTEyLTExLjc5MnoiIGZpbGw9IiMyMTIxMjEiLz48L3N2Zz4=" />
+                    </a>
+                </div>
+            </div>
+            <div class="team_card">
+                <img class="member_img" src="img/adele-6.jpg" alt="">
+                <div class="member_details">
+                    <h3>Adele Laurie</h3>
+                    <p>songwriter</p>
+                </div>
+                <div class="social_icon">
+                    <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1;"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9Ijk2LjEyNHB4IiBoZWlnaHQ9Ijk2LjEyM3B4IiB2aWV3Qm94PSIwIDAgOTYuMTI0IDk2LjEyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTYuMTI0IDk2LjEyMzsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTcyLjA4OSwwLjAyTDU5LjYyNCwwQzQ1LjYyLDAsMzYuNTcsOS4yODUsMzYuNTcsMjMuNjU2djEwLjkwN0gyNC4wMzdjLTEuMDgzLDAtMS45NiwwLjg3OC0xLjk2LDEuOTYxdjE1LjgwMw0KCQljMCwxLjA4MywwLjg3OCwxLjk2LDEuOTYsMS45NmgxMi41MzN2MzkuODc2YzAsMS4wODMsMC44NzcsMS45NiwxLjk2LDEuOTZoMTYuMzUyYzEuMDgzLDAsMS45Ni0wLjg3OCwxLjk2LTEuOTZWNTQuMjg3aDE0LjY1NA0KCQljMS4wODMsMCwxLjk2LTAuODc3LDEuOTYtMS45NmwwLjAwNi0xNS44MDNjMC0wLjUyLTAuMjA3LTEuMDE4LTAuNTc0LTEuMzg2Yy0wLjM2Ny0wLjM2OC0wLjg2Ny0wLjU3NS0xLjM4Ny0wLjU3NUg1Ni44NDJ2LTkuMjQ2DQoJCWMwLTQuNDQ0LDEuMDU5LTYuNyw2Ljg0OC02LjdsOC4zOTctMC4wMDNjMS4wODIsMCwxLjk1OS0wLjg3OCwxLjk1OS0xLjk2VjEuOThDNzQuMDQ2LDAuODk5LDczLjE3LDAuMDIyLDcyLjA4OSwwLjAyeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                    </a>
+                    <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.333;"
+                            src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY4MXB0IiB2aWV3Qm94PSItMjEgLTgxIDY4MS4zMzQ2NCA2ODEiIHdpZHRoPSI2ODFwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAwLjk2NDg0NCA1MTUuMjkyOTY5YzI0MS4wNTA3ODEgMCAzNzIuODcxMDk0LTE5OS43MDMxMjUgMzcyLjg3MTA5NC0zNzIuODcxMDk0IDAtNS42NzE4NzUtLjExNzE4OC0xMS4zMjAzMTMtLjM3MTA5NC0xNi45Mzc1IDI1LjU4NTkzNy0xOC41IDQ3LjgyNDIxOC00MS41ODU5MzcgNjUuMzcxMDk0LTY3Ljg2MzI4MS0yMy40ODA0NjkgMTAuNDQxNDA2LTQ4Ljc1MzkwNyAxNy40NjA5MzctNzUuMjU3ODEzIDIwLjYzNjcxOCAyNy4wNTQ2ODctMTYuMjMwNDY4IDQ3LjgyODEyNS00MS44OTQ1MzEgNTcuNjI1LTcyLjQ4ODI4MS0yNS4zMjAzMTMgMTUuMDExNzE5LTUzLjM2MzI4MSAyNS45MTc5NjktODMuMjE0ODQ0IDMxLjgwODU5NC0yMy45MTQwNjItMjUuNDcyNjU2LTU3Ljk2NDg0My00MS40MDIzNDQtOTUuNjY0MDYyLTQxLjQwMjM0NC03Mi4zNjcxODggMC0xMzEuMDU4NTk0IDU4LjY4NzUtMTMxLjA1ODU5NCAxMzEuMDMxMjUgMCAxMC4yODkwNjMgMS4xNTIzNDQgMjAuMjg5MDYzIDMuMzk4NDM3IDI5Ljg4MjgxMy0xMDguOTE3OTY4LTUuNDgwNDY5LTIwNS41MDM5MDYtNTcuNjI1LTI3MC4xMzI4MTItMTM2LjkyMTg3NS0xMS4yNSAxOS4zNjMyODEtMTcuNzQyMTg4IDQxLjg2MzI4MS0xNy43NDIxODggNjUuODcxMDkzIDAgNDUuNDYwOTM4IDIzLjEzNjcxOSA4NS42MDU0NjkgNTguMzE2NDA3IDEwOS4wODIwMzItMjEuNS0uNjYwMTU2LTQxLjY5NTMxMy02LjU2MjUtNTkuMzUxNTYzLTE2LjM4NjcxOS0uMDE5NTMxLjU1MDc4MS0uMDE5NTMxIDEuMDg1OTM3LS4wMTk1MzEgMS42NzE4NzUgMCA2My40Njg3NSA0NS4xNzE4NzUgMTE2LjQ2MDkzOCAxMDUuMTQ0NTMxIDEyOC40Njg3NS0xMS4wMTU2MjUgMi45OTYwOTQtMjIuNjA1NDY4IDQuNjA5Mzc1LTM0LjU1ODU5NCA0LjYwOTM3NS04LjQyOTY4NyAwLTE2LjY0ODQzNy0uODI4MTI1LTI0LjYzMjgxMi0yLjM2MzI4MSAxNi42ODM1OTQgNTIuMDcwMzEyIDY1LjA2NjQwNiA4OS45NjA5MzcgMTIyLjQyNTc4MSA5MS4wMjM0MzctNDQuODU1NDY5IDM1LjE1NjI1LTEwMS4zNTkzNzUgNTYuMDk3NjU3LTE2Mi43Njk1MzEgNTYuMDk3NjU3LTEwLjU2MjUgMC0yMS4wMDM5MDYtLjYwNTQ2OS0zMS4yNjE3MTg4LTEuODE2NDA3IDU3Ljk5OTk5OTggMzcuMTc1NzgxIDEyNi44NzEwOTM4IDU4Ljg3MTA5NCAyMDAuODg2NzE4OCA1OC44NzEwOTQiLz48L3N2Zz4=" />
+                    </a>
+                    <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.666;"
+                            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIzLjk5NCAyNHYtLjAwMWguMDA2di04LjgwMmMwLTQuMzA2LS45MjctNy42MjMtNS45NjEtNy42MjMtMi40MiAwLTQuMDQ0IDEuMzI4LTQuNzA3IDIuNTg3aC0uMDd2LTIuMTg1aC00Ljc3M3YxNi4wMjNoNC45N3YtNy45MzRjMC0yLjA4OS4zOTYtNC4xMDkgMi45ODMtNC4xMDkgMi41NDkgMCAyLjU4NyAyLjM4NCAyLjU4NyA0LjI0M3Y3LjgwMXoiLz48cGF0aCBkPSJtLjM5NiA3Ljk3N2g0Ljk3NnYxNi4wMjNoLTQuOTc2eiIvPjxwYXRoIGQ9Im0yLjg4MiAwYy0xLjU5MSAwLTIuODgyIDEuMjkxLTIuODgyIDIuODgyczEuMjkxIDIuOTA5IDIuODgyIDIuOTA5IDIuODgyLTEuMzE4IDIuODgyLTIuOTA5Yy0uMDAxLTEuNTkxLTEuMjkyLTIuODgyLTIuODgyLTIuODgyeiIvPjwvc3ZnPg==" />
+                    </a>
+                    <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
+                        <img style="height: 20px; width: 20px; --i:1.999;"
+                            src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTIgLjVjLTYuNjMgMC0xMiA1LjI4LTEyIDExLjc5MiAwIDUuMjExIDMuNDM4IDkuNjMgOC4yMDUgMTEuMTg4LjYuMTExLjgyLS4yNTQuODItLjU2NyAwLS4yOC0uMDEtMS4wMjItLjAxNS0yLjAwNS0zLjMzOC43MTEtNC4wNDItMS41ODItNC4wNDItMS41ODItLjU0Ni0xLjM2MS0xLjMzNS0xLjcyNS0xLjMzNS0xLjcyNS0xLjA4Ny0uNzMxLjA4NC0uNzE2LjA4NC0uNzE2IDEuMjA1LjA4MiAxLjgzOCAxLjIxNSAxLjgzOCAxLjIxNSAxLjA3IDEuODAzIDIuODA5IDEuMjgyIDMuNDk1Ljk4MS4xMDgtLjc2My40MTctMS4yODIuNzYtMS41NzctMi42NjUtLjI5NS01LjQ2Ni0xLjMwOS01LjQ2Ni01LjgyNyAwLTEuMjg3LjQ2NS0yLjMzOSAxLjIzNS0zLjE2NC0uMTM1LS4yOTgtLjU0LTEuNDk3LjEwNS0zLjEyMSAwIDAgMS4wMDUtLjMxNiAzLjMgMS4yMDkuOTYtLjI2MiAxLjk4LS4zOTIgMy0uMzk4IDEuMDIuMDA2IDIuMDQuMTM2IDMgLjM5OCAyLjI4LTEuNTI1IDMuMjg1LTEuMjA5IDMuMjg1LTEuMjA5LjY0NSAxLjYyNC4yNCAyLjgyMy4xMiAzLjEyMS43NjUuODI1IDEuMjMgMS44NzcgMS4yMyAzLjE2NCAwIDQuNTMtMi44MDUgNS41MjctNS40NzUgNS44MTcuNDIuMzU0LjgxIDEuMDc3LjgxIDIuMTgyIDAgMS41NzgtLjAxNSAyLjg0Ni0uMDE1IDMuMjI5IDAgLjMwOS4yMS42NzguODI1LjU2IDQuODAxLTEuNTQ4IDguMjM2LTUuOTcgOC4yMzYtMTEuMTczIDAtNi41MTItNS4zNzMtMTEuNzkyLTEyLTExLjc5MnoiIGZpbGw9IiMyMTIxMjEiLz48L3N2Zz4=" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{>footer}}
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
